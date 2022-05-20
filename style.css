@@ -1,0 +1,121 @@
+html{
+  width: 90%;
+  margin: auto;
+  background-color: white;
+}
+.Logo{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  left: 85px;
+  background-color: red;
+}
+
+.Logo p{
+  text-align: center;
+  font-size: 3em;
+  margin-top: 20px;
+}
+
+.Row1{
+  font-family: 'Roboto', sans-serif;
+  float: left;
+  background-color: white;
+  height: 800px;
+  width: 250px;
+  text-align: center;
+  font-size: 2em;
+}
+
+.test ul{
+  text-decoration: underline;
+  list-style-type: none;
+  font-family: 'Roboto', sans-serif;
+  float: left;
+  font-size:16px;
+  margin-top:45px;
+  margin-left: 80px;
+  line-height: 20px;
+}
+
+.Row1 p{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+
+.Row2{
+  float: left;
+  background-color: grey;
+  width: 775px;
+  height: 800px;
+}
+
+.Row2 p{
+  font-family: 'Courgette', cursive;
+  font-size: 3em;
+  position: absolute;
+  bottom: 500px;
+  padding: 20px;
+}
+
+.Row2 img{
+  width: 550px;
+  height: 700px;
+  margin-top: 100px;
+  float: right;
+
+}
+
+.Row3{
+  font-family: 'Roboto', sans-serif;
+  float: left;
+  background-color: white;
+  width: 300px;
+  height: 800px;
+}
+
+.Row3 h3{
+  margin-left: 10px;
+}
+
+.Row3 li{
+  text-decoration: underline;
+  list-style-type: none;
+}
+
+
+.Nav a {
+  padding: 1.95vw;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+
+
+
+.Nav a:hover{
+  background-color: #00cfc8;
+ color: rgb(0, 0, 0);
+ transition: all 1s ease;
+}
+
+.Top {
+  padding:1.95vw;
+  display: flex;
+  flex-direction: row;  
+}
+
+.output{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;  
+  column-count: 3;
+}
+
+
+.box{
+  border: solid 1px #f0f0f0;
+}
+
